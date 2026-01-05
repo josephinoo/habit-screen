@@ -1,0 +1,5 @@
+#!/bin/bash
+# Wrapper script to run the habit-screen CLI
+# Get the directory where this script is located
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+python3 "$DIR/cli.py" "$@"
